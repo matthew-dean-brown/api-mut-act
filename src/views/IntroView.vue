@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>This is the intro page</h1>
+        <h1>This is the intro page hvyggvgvgggcvgvvvc</h1>
         <p>{{ $store.state.intro }}</p>
         <!-- <p>{{ $store.state.tasks }}</p>
         <p>{{ $store.state.review }}</p> -->

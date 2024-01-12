@@ -21,10 +21,10 @@ export default createStore({
   },
   actions: {
     getData(context){
-        axios.get('http://localhost:3000/data')
+        axios.get('https://matthew-dean-brown.github.io/api-mut-act/index.json  ')
         .then(matthew => {
-          console.log(matthew)
-          let [intro,task, review] = matthew.data
+          console.log(matthew.data)
+          let [intro,task, review] = matthew.data.data
           console.log(intro.intro)
           context.commit('setIntro', intro.intro)
           // console.log(task.tasks)
